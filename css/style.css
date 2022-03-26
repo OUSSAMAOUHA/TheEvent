@@ -794,6 +794,9 @@ section {
     width: 100%;
 }
 
+.flexslider {
+    overflow: hidden;
+}
 .home .flexslider {
     overflow: hidden;
 }
@@ -2208,11 +2211,7 @@ ul.timeline {
     margin: 0 auto;
 }
 
-.clients-carousel .item figure img {
-    display: block;
-    margin: 0 auto;
-    opacity: 0.5;
-}
+
 
 .clients-carousel .item figure img:hover {
     opacity: 1;
@@ -3059,4 +3058,10 @@ footer {
     #main-menu ul li.active>a {
         box-shadow: none !important;
     }
+}
+.logo-nav{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
